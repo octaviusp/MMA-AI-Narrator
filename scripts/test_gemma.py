@@ -1,25 +1,4 @@
-"""import vertexai
-from google.cloud import aiplatform
 
-aiplatform.init(
-    project="elemental-leaf-424516-r7"
-)"""
-
-
-"""import time
-from langchain_google_genai import ChatGoogleGenerativeAI
-
-
-google = ChatGoogleGenerativeAI(
-            model="gemini-1.5-flash-001",
-            temperature=1,
-            google_api_key="AIzaSyA4B_6LhCo7o8aopo8sFEGz0V60CzYWz8g"
-        )
-
-start = time.time()
-print(google.invoke("Hello!"))
-end = time.time()
-print(end - start)"""
 
 import asyncio
 import time
